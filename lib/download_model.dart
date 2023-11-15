@@ -38,8 +38,11 @@ enum WhisperModel {
 
   /// Huggingface url to download model
   Uri get modelUri {
-    return Uri.parse(
+    /*return Uri.parse(
       'https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-$modelName.bin',
+    );*/
+    return Uri.parse(
+      'https://tiandongli.cn/guides/models/ggml-$modelName.bin',
     );
   }
 
